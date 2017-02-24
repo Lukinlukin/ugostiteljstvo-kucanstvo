@@ -1,0 +1,17 @@
+
+<div class="form">
+  <form action="https://formspree.io/neskovic88@gmail.com" method="POST">
+    {% for item in form %}
+      <label class="label">{{ item.name }}</label>
+      <input class="input" type="text" name="name">
+      <label class="label">{{ item.phone }}</label>
+      <input class="input" type="phone" name="text">
+      <label class="label">{{ item.email }}</label>
+      <input class="input" type="email" name="_replyto">
+      <label class="label">{{ item.message }}</label>
+      <textarea class="textarea" rows="6" name="text"></textarea>
+      <!-- <input type="hidden" name="_next" value="hvala.html"/> -->
+      <input type="submit" class="button" value="{{ item.submit }}">
+    {% endfor %}
+  </form>
+</div>

@@ -1,0 +1,15 @@
+
+<header class="header">
+
+  <img class="logo" src="images/lukin-logo.svg" alt="Lukin Doo logo">
+
+  {% for item in header %}
+  <h1 class="heading">{{ item.title }}</h1>
+  {% endfor %}
+
+  <div class="info">
+    {% for item in info %}
+      <span class="data">{{ item.label }}: {{ item.data }}</span>
+    {% endfor %}
+  </div>
+</header>

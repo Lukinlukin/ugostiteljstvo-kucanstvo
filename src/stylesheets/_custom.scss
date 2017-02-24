@@ -1,0 +1,228 @@
+
+$lukin: #0071BC;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Oranienbaum, serif;
+  font-weight: normal;
+}
+
+.shadow {
+  text-shadow: 0.125rem 0.25rem 0.1875rem rgba(0,0,0, 0.3);
+}
+
+.header {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/kuhinja.jpg) center 0 no-repeat;
+  background-size: cover;
+
+  .logo {
+    margin-top: 6rem;
+    height: 6rem;
+  }
+
+  .heading {
+    color: white;
+    line-height: 1.25;
+    margin: 3rem 0 4rem;
+    padding: 0;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    @extend .shadow;
+    font-size: 3rem;
+  }
+
+  .info {
+    padding: 1rem 0.5rem;
+    background: black;
+    color: white;
+
+    .data {
+      @extend .h4;
+      line-height: 1.75;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+    }
+  }
+}
+
+.products {
+  @extend .max-width-4;
+  @extend .mx-auto;
+  padding-top: 4rem;
+
+  .heading {
+    text-align: center;
+    color: black;
+    line-height: 1.25;
+    margin: 0 0 4rem;
+    padding: 0;
+    font-size: 2.75rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.box {
+  @extend .flex;
+  @extend .flex-wrap;
+
+  .article {
+    @extend .sm-col-6;
+  }
+
+  .item {
+    padding: 4rem 3rem;
+
+    .title {
+      color: white;
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.25;
+      font-size: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.1rem solid white;
+      @extend .shadow;
+    }
+
+    .text {
+      color: white;
+      text-align: left;
+      margin-bottom: 0;
+      font-size: 1.25rem;
+      line-height: 1.75;
+      @extend .shadow;
+    }
+  }
+}
+
+.inox {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/inox.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.pribor {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/pribor.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.casa {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/casa.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.keramika-porculan {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/keramika-porculan.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.kristalin {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/kristalin.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.dodatna-oprema {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/dodatna-oprema.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.about {
+  @extend .max-width-3;
+  @extend .mx-auto;
+  padding: 5rem 2rem 0;
+
+  .heading {
+    text-align: center;
+    color: $lukin;
+    margin: 0 0 3rem;
+    padding: 0;
+    font-size: 2.75rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+}
+
+.contact {
+  @extend .max-width-2;
+  @extend .mx-auto;
+  padding: 4rem 2rem 0;
+  text-align: center;
+
+  .fa-phone,
+  .fa-map-marker {
+    color: $lukin;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .text {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    display: block;
+    margin-bottom: 4rem;
+  }
+}
+
+.form {
+  @extend .max-width-2;
+  @extend .mx-auto;
+  padding: 1rem 2rem 0;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  .label {
+    @extend .caps;
+    margin-bottom: 1rem;
+    color: black;
+  }
+
+  .input, .textarea {
+    @extend .border-box;
+    margin-bottom: 2rem;
+    border-radius: 0;
+    border-color: $lukin;
+    text-align: center;
+    color: $lukin;
+  }
+
+  .button {
+    @extend .btn;
+    @extend .btn-primary;
+    font-weight: normal;
+    border-radius: 0;
+    text-transform: uppercase;
+  }
+}
+
+.map {
+    border-top: 0.25rem solid $lukin;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+
+  .text {
+    margin-bottom: 0;
+  }
+}
+
+
+

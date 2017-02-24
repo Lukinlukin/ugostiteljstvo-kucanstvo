@@ -1,0 +1,15 @@
+<section class="products">
+
+  <h2 class="heading">{% block product %}{{ product }}{% endblock %}</h2>
+
+  <div class="box">
+    {% for item in products %}
+    <article class="article {{ item.class }}">
+      <div class="item">
+        <h3 class="title">{{ item.title }}</h3>
+        <p class="text">{{ item.text }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

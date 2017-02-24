@@ -1,0 +1,94 @@
+{
+  "title": "Lukin Doo | Profesionalna oprema za ugostiteljstvo i kuhinjski inventar za kućanstvo",
+
+  "header": [
+    {
+    "title": "Oprema za ugostiteljstvo i posuđe za svačiju kuhinju"
+    }
+  ],
+
+  "info": [
+    {
+      "label": "telefon",
+      "data": "+385 01 6556433"
+    },
+    {
+      "label": "adresa",
+      "data": "Slavka Čora 43, Gornji Čehi, Zagreb"
+    },
+    {
+      "label": "IOB",
+      "data": "57358705805"
+    },
+    {
+      "label": "radno vreme",
+      "data": "pon.-pet. / 8-16"
+    }
+  ],
+
+  "product": "Profesionalna oprema za ugostiteljstvo i kuhinjski inventar za kućanstvo",
+
+  "products": [
+    {
+      "class": "inox",
+      "title": "Inox",
+      "text": "Konobarski inox poslužavnici • Jelonoše • Profi inox ovali • Inox vedrica za butelju • Vrčevi za kavu • Mrežasta cjedila • Inox pepeljare • Posude za serviranje staklo-inox • Poslužavnici • Rajngle • Lonci • Garniture suđa • Džezve za kavu • Čajnici • Posude za čaj / kavu staklo-inox • Termos boce"
+    },
+    {
+      "class": "pribor",
+      "title": "Pribori za jelo—hoteli, restorani, domaćinstvo",
+      "text": "Žlica stolna hotel • Vilica stolna • Nož stolni hotel • Žlica bijela kava • Žlica crna kava hotel • Žlica za limunadu hotel • Vilica za kolač • Setovi noževa • Pribori za jelo za 6 ili 12 osoba • Profesionalni noževi za kućanstvo"
+    },
+    {
+      "class": "casa",
+      "title": "Čaše",
+      "text": "Čaše za sok • Čaše za viski • Čaše za pivo • Čaše za žestoko • Čaše na stalku za vino • Čaše na stalku za martini • Čaše za konjak i likere, na stalku i bez stalka • Čaša za šampanjac • Čaša za martini • Čaša za burguda • Krigle za pivo"
+    },
+    {
+      "class": "keramika-porculan",
+      "title": "Keramika i porculan",
+      "text": "Keramičke šalice • Keramički lončići • Tanjuri za pizzu • Keramički pekači Teracota • Keramički doze za začine • Tave s keramičkim premazom • Porculanske šalice • Porculanski tanjuri • Porculanski jušnici"
+    },
+    {
+      "class": "kristalin",
+      "title": "Kristalin",
+      "text": "Vaze kristalin • Zdjele kristalin • Doze kristalin • Servis za viski kristalin • Decanteri za vino kristalin • Boce s čepovima kristalin • Više tipova brušenih čaša sa elementima Swarovskog"
+    },
+    {
+      "class": "dodatna-oprema",
+      "title": "Dodatna oprema kuhinjskih proizvoda",
+      "text": "Mužari mramor • Kalupi za mufine, kuglof i kolače • Prenosne boce za tople napitke • Vadičepovi • Gnječilice • Tave sa mramornim premazom • Otvarači • Mlinci za orahe • Ručni sokovnici • Džezve za kavu emajl • Staklene piramide za vino • Kupovi za sladoled • Pepeljare crne i prozirne • Dozatori • Tanjuri Arcopal i Parma • Grijalice za hranu"
+    }
+  ],
+
+  "about": [
+    {
+      "title": "Lukin",
+      "text1": "Bavimo se opremom za ugostiteljstvo i kućanstvo. Ponudu baziramo na specifičnosti asortimana koji se rijetko može pronaći u velikim supermarketima. Roba je porijeklom iz zemalja regiona, Evrope ali i svjteskih proizvođača profesionalne i poluprofesionalne opreme za ugostiteljstvo, kuhinjskog posuđa, pribora i dodataka koji su potrebni u svakomu domaćinstvu.",
+      "text2": "Tvrtka Lukin smještena je u Zagrebu i uspješno surađuje sa partnerima u zemlji i inozemstvu od 1994.-e godine. Gradimo odgovorna partnerstva sa maloprodajnim i veleprodajnim poduzećima iz cijele Hrvatske ali i regiona. Ukoliko poslujete u ovoj branši, imate svoje poduzeće, restoran, hotel ili kafić, pozovite nas kako bismo ostvarili suradnju."
+    }
+  ],
+
+  "contact": [
+    {
+      "phone": "+385 01 6556433",
+      "location": "Slavka Čora 43, Gornji Čehi, Zagreb"
+    }
+  ],
+
+  "form": [
+    {
+      "name": "ime",
+      "phone": "telefon",
+      "email": "email",
+      "message": "poruka",
+      "submit": "Pišite nam"
+    }
+  ],
+
+  "copyright": [
+    {
+      "company": "Lukin Doo",
+      "message": "Sva prava zadržana."    }
+  ]
+}

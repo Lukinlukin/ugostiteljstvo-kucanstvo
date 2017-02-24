@@ -1,0 +1,11 @@
+{
+  "name": "ugostiteljstvo-kucanstvo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://Lukinlukin@github.com/lukinlukin/ugostiteljstvo-kucanstvo.git",
+  "author": "Lukinlukin <neskovic88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.0.0-blendid-beta-20"
+  }
+}
