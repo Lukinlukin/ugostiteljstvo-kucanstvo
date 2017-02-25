@@ -3,7 +3,7 @@
 
   "header": [
     {
-    "title": "Oprema za ugostiteljstvo i posuđe za svačiju kuhinju"
+    "title": "Oprema za ugostiteljstvo i posuđe za svaku kuhinju"
     }
   ],
 
@@ -17,11 +17,11 @@
       "data": "Slavka Čora 43, Gornji Čehi, Zagreb"
     },
     {
-      "label": "IOB",
+      "label": "OIB",
       "data": "57358705805"
     },
     {
-      "label": "radno vreme",
+      "label": "radno vrijeme",
       "data": "pon.-pet. / 8-16"
     }
   ],
